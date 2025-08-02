@@ -237,9 +237,25 @@ you shared love towards me like no one. I will always keep grattitude towards yo
     </div>
   </div>
 
-<audio id="music" loop autoplay muted hidden>
+<!-- Music that plays with button (bypasses browser block) -->
+<button onclick="document.getElementById('music').play()" style="
+  padding: 12px 25px;
+  background-color: #ff69b4;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+">
+  🎵 Tap to Play Music
+</button>
+
+<audio id="music" loop>
   <source src="assets/mummy_song.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
 </audio>
+
 <footer class="footer">
   <p>Sending you a pocket full of heartful hugs and endless love 💌🤗❤️</p>
 </footer>
@@ -285,6 +301,7 @@ you shared love towards me like no one. I will always keep grattitude towards yo
   </script>
 </body>
 </html>
+
 
 
 
