@@ -237,16 +237,19 @@ you shared love towards me like no one. I will always keep grattitude towards yo
     </div>
   </div>
 
-<!-- Tap to play music -->
+<!-- 🎵 Music play button at the top-left -->
 <button onclick="document.getElementById('music').play()" style="
-  padding: 12px 25px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
   background-color: #ff69b4;
   color: white;
   font-size: 16px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  margin: 20px;
+  z-index: 9999;
 ">
   🎵 Tap to Play Music
 </button>
@@ -255,6 +258,7 @@ you shared love towards me like no one. I will always keep grattitude towards yo
   <source src="assets/mummy_song.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
 
 
 <footer class="footer">
@@ -302,6 +306,7 @@ you shared love towards me like no one. I will always keep grattitude towards yo
   </script>
 </body>
 </html>
+
 
 
 
